@@ -14,6 +14,7 @@ function startGame() {
 
 function initializeCards(cards) {
     let gameBoard = document.getElementById("gameBoard");
+    console.log(gameBoard);
     gameBoard.innerHTML = "";
 
     cards.forEach(card => {
